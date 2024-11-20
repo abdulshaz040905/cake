@@ -1,0 +1,88 @@
+body {
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://img.stablecog.com/insecure/1920w/aHR0cHM6Ly9iLnN0YWJsZWNvZy5jb20vYWM3ZmU1Y2EtY2VmZS00MDYyLWI5MjUtNDczZjNiMjg1OTE3LmpwZWc.webp");
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3f0f0f;
+  color: white;
+  padding: 10px;
+  border-radius: 0 0 15px 15px;
+  height: 120px;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px;
+}
+
+nav button {
+  background-color: #5f5151;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.categories button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cakes-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  height: 100px;
+}
+
+.cake-card {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  width: 200px;
+  text-align: center;
+  background-color: rgb(175, 165, 165);
+  border-radius: 15px;
+
+}
+
+.cake-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.cart {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #210d0b;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
